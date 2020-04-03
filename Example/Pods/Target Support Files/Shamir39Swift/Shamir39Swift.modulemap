@@ -1,0 +1,6 @@
+framework module Shamir39Swift {
+  umbrella header "Shamir39Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

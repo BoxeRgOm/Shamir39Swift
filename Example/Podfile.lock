@@ -1,0 +1,16 @@
+PODS:
+  - Shamir39Swift (0.1.0)
+
+DEPENDENCIES:
+  - Shamir39Swift (from `../`)
+
+EXTERNAL SOURCES:
+  Shamir39Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Shamir39Swift: d841d262af3e942a4af4cb523ee0328bf109185b
+
+PODFILE CHECKSUM: 9b352d1b7dc7fa1781c30c79e217c8914886bfcf
+
+COCOAPODS: 1.8.4
