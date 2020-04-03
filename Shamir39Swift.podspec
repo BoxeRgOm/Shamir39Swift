@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Shamir39Swift'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'This is a tool for Shamir39 on iOS.'
   s.swift_version    = '4.0'
   s.description      = 'This is a tool for Shamir39 on iOS. This ported Swift from Javascript Shamir39(https://github.com/iancoleman/shamir39).'
