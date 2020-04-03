@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Shamir39Swift_Tests' do
+  pod 'Shamir39Swift', :path => '../'
+  
+  
+end
