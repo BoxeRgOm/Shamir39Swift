@@ -3,4 +3,8 @@ target 'Shamir39Swift_Tests' do
   pod 'Shamir39Swift', :path => '../'
   
   
+
+
+pod 'BigInt', '~> 5.0'
+
 end

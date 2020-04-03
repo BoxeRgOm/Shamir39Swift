@@ -1,16 +1,24 @@
 PODS:
-  - Shamir39Swift (0.1.0)
+  - BigInt (5.0.0)
+  - Shamir39Swift (0.1.0):
+    - BigInt (~> 5.0)
 
 DEPENDENCIES:
+  - BigInt (~> 5.0)
   - Shamir39Swift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BigInt
 
 EXTERNAL SOURCES:
   Shamir39Swift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Shamir39Swift: d841d262af3e942a4af4cb523ee0328bf109185b
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  Shamir39Swift: 37aba15fe9f29c4f8b66be6f6c4740fac7069df7
 
-PODFILE CHECKSUM: 9b352d1b7dc7fa1781c30c79e217c8914886bfcf
+PODFILE CHECKSUM: 6b4e4c5190f0fa7392169b67b78f9d4b122de828
 
 COCOAPODS: 1.8.4

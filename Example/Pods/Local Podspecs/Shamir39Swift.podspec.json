@@ -1,8 +1,9 @@
 {
   "name": "Shamir39Swift",
   "version": "0.1.0",
-  "summary": "A short description of Shamir39Swift.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "This is a tool for Shamir39 on iOS.",
+  "swift_versions": "4.0",
+  "description": "This is a tool for Shamir39 on iOS. This ported Swift from Javascript Shamir39(https://github.com/iancoleman/shamir39).",
   "homepage": "https://github.com/boxergom/Shamir39Swift",
   "license": {
     "type": "MIT",
@@ -16,7 +17,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "Shamir39Swift/Classes/**/*"
+  "source_files": "Shamir39Swift/Classes/**/*",
+  "dependencies": {
+    "BigInt": [
+      "~> 5.0"
+    ]
+  },
+  "swift_version": "4.0"
 }
