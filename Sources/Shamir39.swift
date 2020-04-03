@@ -9,8 +9,7 @@
 import UIKit
 
 
-
-struct Shamir39 {
+public struct Shamir39 {
     
     struct Config {
         

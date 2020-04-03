@@ -21,9 +21,6 @@
 		6002AD14210CBE9C34EB848031CFD7E6 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6087ECF12527B640CC79F526B5799BAB /* Addition.swift */; };
 		7C7F465CD74D22F53A7C74ECD223C6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC94AF09E0374817D8D987940519BEB7 /* Foundation.framework */; };
 		7EECE9FCF5E07473E6D0FE80BFCB94C9 /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A91E26C51CBFDA6B5D4304F9A5D656A /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8317838C24372A8200D1FDE9 /* Shamir39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317838924372A8200D1FDE9 /* Shamir39.swift */; };
-		8317838D24372A8200D1FDE9 /* Shamir39Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317838A24372A8200D1FDE9 /* Shamir39Utils.swift */; };
-		8317838E24372A8200D1FDE9 /* wordlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317838B24372A8200D1FDE9 /* wordlist.swift */; };
 		8599E23B2946C6F3F6DA3D63EC82C4A3 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596A717B1900C9EC63DDD5F449068BEA /* Words and Bits.swift */; };
 		8766D12278B8619DE37C2B8F00843D43 /* Pods-Shamir39Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27D631B143814AEB08018CA03C2F610 /* Pods-Shamir39Swift_Tests-dummy.m */; };
 		99F35D362CDAA3F01D59E05FAB02907D /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ACC583132B2436BFED7B300DBF011 /* Strideable.swift */; };
@@ -103,9 +100,6 @@
 		79BD2FA2A1041EEAECB8FE1537110E29 /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
 		7A91E26C51CBFDA6B5D4304F9A5D656A /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
 		7F723A7B5D66B0782D13A4C6F837BAE3 /* Shamir39Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Shamir39Swift-Info.plist"; sourceTree = "<group>"; };
-		8317838924372A8200D1FDE9 /* Shamir39.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shamir39.swift; path = Shamir39Swift/Classes/Shamir39/Shamir39.swift; sourceTree = "<group>"; };
-		8317838A24372A8200D1FDE9 /* Shamir39Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shamir39Utils.swift; path = Shamir39Swift/Classes/Shamir39/Shamir39Utils.swift; sourceTree = "<group>"; };
-		8317838B24372A8200D1FDE9 /* wordlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = wordlist.swift; path = Shamir39Swift/Classes/Shamir39/wordlist.swift; sourceTree = "<group>"; };
 		91BB24BA472AF523E913108C9AA301F2 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9604F822D19221D72FF5A59B4044960B /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = Sources/Shifts.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -221,9 +215,6 @@
 		65618BA016B69BAB018984EEDA96AF1A /* Shamir39Swift */ = {
 			isa = PBXGroup;
 			children = (
-				8317838924372A8200D1FDE9 /* Shamir39.swift */,
-				8317838A24372A8200D1FDE9 /* Shamir39Utils.swift */,
-				8317838B24372A8200D1FDE9 /* wordlist.swift */,
 				EB309B94FECABC69AB1F41B4826F094A /* Pod */,
 				F929C79E0CDC785648A8154CEBE83244 /* Support Files */,
 			);
@@ -474,9 +465,7 @@
 				5E2574B7162EED00A81237F56CDC0BE4 /* BigInt.swift in Sources */,
 				AC7DBF3AD44B3E7644068E6F09F9EBF2 /* BigUInt.swift in Sources */,
 				04C4B5D00750E2E4DFD4C4C7CC47283A /* Bitwise Ops.swift in Sources */,
-				8317838E24372A8200D1FDE9 /* wordlist.swift in Sources */,
 				DBE9A6D9CB82D8605F4C25B9426B1557 /* Codable.swift in Sources */,
-				8317838D24372A8200D1FDE9 /* Shamir39Utils.swift in Sources */,
 				16F71F20D31B7EEC6A60DB14135AB7A9 /* Comparable.swift in Sources */,
 				39137B0D7B8FB5BF554BDE012BD85061 /* Data Conversion.swift in Sources */,
 				3B9A2601095A9A72843D76CA44B37782 /* Division.swift in Sources */,
@@ -488,7 +477,6 @@
 				D48A4410A7C8CE6B6A0787A0F4999DE5 /* Multiplication.swift in Sources */,
 				E93CF504980B3D653BB4530E7F98E9F6 /* Prime Test.swift in Sources */,
 				AC4E061C6A2D21210122B471D8BCC81E /* Random.swift in Sources */,
-				8317838C24372A8200D1FDE9 /* Shamir39.swift in Sources */,
 				BE29AFA73FEDAFA471F35F8AB1C3EA99 /* Shifts.swift in Sources */,
 				4362503059C68DFCDCB8621F4FD9E325 /* Square Root.swift in Sources */,
 				99F35D362CDAA3F01D59E05FAB02907D /* Strideable.swift in Sources */,
