@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Shamir39Swift'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'This is a tool for Shamir39 on iOS.'
   s.swift_version    = '4.0'
   s.description      = 'This is a tool for Shamir39 on iOS. This ported Swift from Javascript Shamir39(https://github.com/iancoleman/shamir39).'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author           = { 'boxergom' => 'ms.kang@bono.tech' }
   s.source           = { :git => 'https://github.com/boxergom/Shamir39Swift.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'Shamir39Swift/Classes/**/*'
+  s.source_files = 'Sources/*.swift'
   s.dependency 'BigInt', '~> 5.0'
    
 end

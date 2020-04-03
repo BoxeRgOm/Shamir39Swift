@@ -1,5 +1,5 @@
 import XCTest
-import Shamir39Swift
+
 
 class Tests: XCTestCase {
     
