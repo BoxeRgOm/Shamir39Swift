@@ -113,7 +113,7 @@ public struct Shamir39 {
 
     let VERSION = "shamir39-p1";
     let config: Config = Config(bits: 11)
-    
+     
     func splits(bip39MnemonicWords:[String], m: Int, n:Int) throws -> [String]{
         
         let wordlist = Wordlist.list;
