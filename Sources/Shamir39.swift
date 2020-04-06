@@ -9,7 +9,10 @@
 import UIKit
 
 
+
 public struct Shamir39 {
+    
+    public init() {}
     
     struct Config {
         
@@ -111,8 +114,9 @@ public struct Shamir39 {
     let VERSION = "shamir39-p1";
     let config: Config = Config(bits: 11)
     
-    func splits(bip39MnemonicWords:[String], wordlist: [String], m: Int, n:Int) throws -> [String]{
+    func splits(bip39MnemonicWords:[String], m: Int, n:Int) throws -> [String]{
         
+        let wordlist = Wordlist.list;
         
         if (m < 2) {
             throw Shamir39Error("Must require at least 2 shares")
@@ -216,7 +220,9 @@ public struct Shamir39 {
 
     
     
-    func combine(parts:[[String]], wordlist: [String]) throws -> String{
+    func combine(parts:[[String]]) throws -> String{
+        
+        let wordlist = Wordlist.list
         
         var hexParts: [Int: String?] = [:]
         

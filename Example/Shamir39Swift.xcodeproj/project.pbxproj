@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		369D9A1D6C6912F47C24BE4B /* Pods_Shamir39Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CDCBDDC5AF302846557291 /* Pods_Shamir39Swift_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		837C9B0324374B0100F0E8D3 /* wordlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C9B0024374B0100F0E8D3 /* wordlist.swift */; };
-		837C9B0424374B0100F0E8D3 /* Shamir39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C9B0124374B0100F0E8D3 /* Shamir39.swift */; };
-		837C9B0524374B0100F0E8D3 /* Shamir39Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C9B0224374B0100F0E8D3 /* Shamir39Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +19,6 @@
 		607FACE51AFB9204008FA782 /* Shamir39Swift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shamir39Swift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		837C9B0024374B0100F0E8D3 /* wordlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wordlist.swift; sourceTree = "<group>"; };
-		837C9B0124374B0100F0E8D3 /* Shamir39.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shamir39.swift; sourceTree = "<group>"; };
-		837C9B0224374B0100F0E8D3 /* Shamir39Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shamir39Utils.swift; sourceTree = "<group>"; };
 		A3CDCBDDC5AF302846557291 /* Pods_Shamir39Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shamir39Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF29FDD4EB5FF74494E1DD8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,9 +93,6 @@
 		837C9AFF24374B0100F0E8D3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				837C9B0024374B0100F0E8D3 /* wordlist.swift */,
-				837C9B0124374B0100F0E8D3 /* Shamir39.swift */,
-				837C9B0224374B0100F0E8D3 /* Shamir39Utils.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -235,9 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-				837C9B0324374B0100F0E8D3 /* wordlist.swift in Sources */,
-				837C9B0424374B0100F0E8D3 /* Shamir39.swift in Sources */,
-				837C9B0524374B0100F0E8D3 /* Shamir39Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
