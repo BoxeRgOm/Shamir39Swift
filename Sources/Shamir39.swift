@@ -5,9 +5,7 @@
 //  Created by MinSoo Kang on 2020/04/01.
 //  Copyright © 2020 MinSoo Kang. All rights reserved.
 //
-
 import UIKit
-
 
 
 public struct Shamir39 {
@@ -218,7 +216,6 @@ public struct Shamir39 {
         return mnemonics
     }
 
-    
     
     public func combine(parts:[[String]]) throws -> String{
         
